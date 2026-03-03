@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(15, 16, 39);
+    max-width: 400px;
+    margin: 80px auto; /* 1 valor em cima e embaixo, segundo valor dos lados */
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 45px;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    border: 2px solid rgb(90, 88, 228) ;
+    background-color:rgb(29, 31, 73) ;
+    color:#ffffff;
+    outline: none;
+
+    
+}
+
+button{
+    border: none;
+    height: 35px;
+    width: 85px;
+    cursor: pointer;
+    background-color:rgb(90, 88, 228);
+    color: #fff;
+    transition: 0.2s ;
+
+}
+
+button:hover {
+    background-color:rgb(114, 112, 243) ;
+}
+
+button:active {
+    background-color:rgb(156, 155, 252) ;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0; /* define o espaço interno de um elemento, ou seja, a distância entre o conteúdo e a borda desse elemento */
+}
+li{
+    background-color: rgb(32, 35, 87);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px; /* Deixa borda arredondada */
+    color: #eee;
+    font-weight: bold;
+
+    display: flex; /* Só é possível usar os dois itens abaixo com display flex */
+    align-items: center; /* Alinha na vertical */
+    /* justify-content: center; Alinha na horizontal */
+    justify-content: space-between; /* Separa cada elemente em um canto */
+
+    span {
+        cursor: pointer;
+    }
+
+
+}
